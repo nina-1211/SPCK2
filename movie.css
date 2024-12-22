@@ -1,0 +1,233 @@
+body {
+    background-color: black !important;
+}
+#logo {
+    width: 100px;
+}
+div {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+    overflow: visible;
+}
+.nav {
+    justify-content: flex-start;
+}
+li {
+    font-size: 20px;
+    transition: 0.8s;
+    padding: 20px;
+    list-style: none;
+}
+.nav a:hover {
+    color: rgb(222, 18, 18);
+
+}
+.nav2 a:hover {
+    color: rgb(120, 178, 32) !important;
+
+}
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav2 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.bi-search-heart-fill {
+    color: white;
+    font-size: 30px;
+}
+
+.m1 {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.m1:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+#trending {
+    margin-left: 50px;
+    margin-right:50px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto ;
+}
+
+.one {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    width: 300px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: white;
+}
+h1 {
+    margin-top: 50px !important;
+    margin-left: 50px;
+    font-family: "Permanent Marker", serif;
+    color: rgb(180, 24, 24) !important;
+}
+
+.bi-film {
+    color: white;
+    padding: 10px;
+}
+
+.bi-tv-fill {
+    color: white;
+    padding: 10px;
+}
+
+.bi-people-fill {
+    color: white;
+    padding: 10px;
+}
+
+.bi-fire {
+    color: rgb(180, 24, 24);
+    padding: 10px;
+}
+
+.bi-three-dots {
+    color: white;
+    padding: 10px;
+}
+
+.bi-box-arrow-in-right {
+    color: white;
+    padding: 10px;
+}
+
+.bi-person-fill-add {
+    color: white;
+    padding: 10px;
+}
+
+input {
+    border-radius: 50px !important;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    max-width: 1200px;
+    padding: 20px 0;
+    border-bottom: 1px solid #444;
+}
+
+.footer-logo img {
+    height: 50px;
+}
+
+.footer-links,
+.footer-social {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-links a,
+.footer-social a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover,
+.footer-social a:hover {
+    color: #ff6347;
+}
+
+.footer-bottom {
+    padding: 10px 0;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 14px;
+}
+#tvshows {
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto ;
+}
+
+.oneshows {
+    display: flex;
+    flex-direction: column;
+}
+.showtitle {
+    width: 300px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: white;
+}
+.s1 {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+    padding: 10px;
+}
+.s1:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+#movies {
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto ;
+}
+#tvseries {
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto ;
+}
+#cartoon {
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto ;
+    text-decoration: none;
+}

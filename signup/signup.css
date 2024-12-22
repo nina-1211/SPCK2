@@ -1,0 +1,37 @@
+body{
+    background-image: url("https://i.pinimg.com/736x/a3/bd/38/a3bd3813ffa40f6307a285a7a778fbb8.jpg")
+}
+form{
+    padding: 20px;
+    COLOR:BLACK !important;
+}
+.card{
+    border: none !important;
+    color:black !important;
+}
+button{
+    text-align: left;
+}
+#btn1{
+    width:160px;
+}
+#signup{
+    color:blue;
+    text-align: center;
+    font-weight: bolder;
+}
+h3{
+    text-align: center;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    text-align: center;
+}
+#logo {
+    width: 100px;
+}
+

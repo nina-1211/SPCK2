@@ -1,0 +1,52 @@
+body{
+    background-image: url("https://i.pinimg.com/736x/a3/bd/38/a3bd3813ffa40f6307a285a7a778fbb8.jpg")
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none !important;
+}
+.applebtn{
+    border: none;
+    padding:10px;
+    border-radius: 50px;
+    margin-left: 10px;
+    
+}
+.googlebtn{
+    border: none;
+    padding: 10px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+.btn-primary{
+    width:100px;
+}
+#signin{
+    color:blue;
+    text-align: center;
+    font-weight: bolder;
+}
+h6{
+    text-align: center;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    padding: 20px;
+}
+p{
+    text-align: center;
+}
+#logo {
+    width: 100px;
+}

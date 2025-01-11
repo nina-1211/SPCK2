@@ -1,0 +1,192 @@
+#logo {
+    width: 80px;
+}
+.header {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+    overflow: visible;
+    position: relative;
+    z-index: 2;
+    color:white;
+    background-color: rgba(0, 0, 0);
+}
+.body{
+    position: relative;
+    z-index: 2;
+    color:white;
+    margin-left: 100PX;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav {
+    display: flex;
+    justify-content: flex-start;
+    background: transparent;
+}
+li {
+    font-size: 20px;
+    transition: 0.8s;
+    padding: 20px;
+    list-style: none;
+}
+.nav a:hover {
+    color: rgb(216, 66, 91);
+    font-weight: bolder;
+
+}
+.nav2 a:hover {
+    color: rgb(32, 178, 34) !important;
+    font-weight: bolder;
+
+}
+.nav a {
+    text-decoration: none;
+    color:white;
+}
+
+.nav2 {
+    display: flex;
+    justify-content: flex-end;
+    background: transparent;
+    z-index: 2;
+}
+
+.nav2 a {
+    text-decoration: none;
+    color:white;
+}
+
+.bi-search-heart-fill {
+    font-size: 30px;
+}
+.pts{
+    position: relative;
+    top: -580px;
+    z-index: 1;
+}
+#poster{
+    position: relative;
+    width:100%;
+    width:1579px;
+    height:890px;
+    object-fit: cover;
+}
+.title1{
+   display: inline-block;
+    font-size: 60px;
+    font-family: "Rubik Vinyl", serif;
+    
+}
+.title2{
+    display: inline-block;
+    font-size: 30px;
+}
+#poster2{
+    padding: 20px;
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+#poster2:hover{
+    width:400px;
+    height: 500px;
+    transition: 0.5s;
+}
+.content{
+    display: flex;
+}
+.more{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(39, 39, 75, 0.918);
+    margin: 20px;
+    border-radius: 20px;
+    color:white;
+    height: auto;
+}
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    max-width: 1200px;
+    padding: 20px 0;
+    border-bottom: 1px solid #444;
+}
+
+.footer-logo img {
+    height: 50px;
+}
+
+.footer-links,
+.footer-social {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-links a,
+.footer-social a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover,
+.footer-social a:hover {
+    color: #ff6347;
+}
+
+.footer-bottom {
+    padding: 10px 0;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 14px;
+}
+.video{
+    margin-left: 150px;
+    margin-bottom: 40px;
+}
+#black{
+    position:absolute;
+    width: 100%;
+    height:887px;
+    background-color: black;
+    opacity:0.5;
+    inset:0;
+    display:block;
+}
+#bigposter{
+    position: relative;
+}
+.actor{
+    width: 600px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+body{
+    background-color: #753217 !important;
+}

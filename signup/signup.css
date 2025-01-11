@@ -7,7 +7,7 @@ form{
 }
 .card{
     border: none !important;
-    color:black !important;
+    background-color: rgba(37, 36, 36, 0.934) !important;
 }
 button{
     text-align: left;
@@ -16,12 +16,13 @@ button{
     width:160px;
 }
 #signup{
-    color:blue;
+    color:white;
     text-align: center;
     font-weight: bolder;
 }
 h3{
     text-align: center;
+    color:white !important;
 }
 div{
     display: flex;
@@ -30,8 +31,24 @@ div{
 }
 p{
     text-align: center;
+    color: white;
 }
 #logo {
     width: 100px;
+}
+#emailHelp{
+    color:white;
+}
+.head{
+    display: flex;
+    justify-content: flex-start;
+}
+.webname{
+    color: white !important;
+    font-family: "Rubik Vinyl", serif;
+    padding-left: 10px;
+}
+h1{
+    font-family: serif;
 }
 

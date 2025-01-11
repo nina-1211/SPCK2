@@ -13,6 +13,7 @@ div {
     overflow: visible;
 }
 .nav {
+    display: flex;
     justify-content: flex-start;
 }
 li {
@@ -84,7 +85,7 @@ li {
 h1 {
     margin-top: 50px !important;
     margin-left: 50px;
-    font-family: "Permanent Marker", serif;
+    font-family: "Agu Display", serif;
     color: rgb(180, 24, 24) !important;
 }
 
@@ -107,6 +108,10 @@ h1 {
     color: rgb(180, 24, 24);
     padding: 10px;
 }
+.bi-house-door{
+    color: white;
+    padding: 10px;
+}
 
 .bi-three-dots {
     color: white;
@@ -119,6 +124,10 @@ h1 {
 }
 
 .bi-person-fill-add {
+    color: white;
+    padding: 10px;
+}
+.bi-play-btn-fill {
     color: white;
     padding: 10px;
 }
@@ -230,4 +239,54 @@ footer {
     flex-wrap: nowrap;
     overflow-x: auto ;
     text-decoration: none;
+}
+#img1{
+    width: 1000px !important;
+    margin: 0 auto;
+    position: relative;
+}
+#img2{
+    width:1000px !important;
+    margin: 0 auto;
+    position:relative;
+}
+#img3{
+    width:1000px !important;
+    margin: 0 auto;
+    position: relative;
+}
+a{
+    text-decoration: none !important;
+}
+#moviename1,#moviename2,#moviename3{
+    position: absolute;
+    top:450px;
+    right:600px;
+    color:white;
+    font-size: 35px;
+    font-family: "Rubik Vinyl", serif;
+}
+#cover{
+    position: absolute;
+    width:1400px !important;
+    height:800px;
+    margin:0 auto;
+    background-color: black;
+    opacity: 0.7;
+}
+#cover2{
+    position: absolute;
+    width:1400px !important;
+    height:800px;
+    margin:0 auto;
+    background-color: black;
+    opacity: 0.7;
+}
+#cover3{
+    position: absolute;
+    width:1400px !important;
+    height:800px;
+    margin:0 auto;
+    background-color: black;
+    opacity: 0.7;
 }

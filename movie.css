@@ -33,11 +33,13 @@ li {
 .nav a {
     text-decoration: none;
     color: white;
+    font-family: Montserrat, serif;font-optical-sizing: auto;font-weight:400;font-style: normal;
 }
 
 .nav2 {
     display: flex;
     justify-content: flex-end;
+    font-family: Montserrat, serif;font-optical-sizing: auto;font-weight:400;font-style: normal;
 }
 
 .nav2 a {

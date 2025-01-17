@@ -1,0 +1,116 @@
+body {
+    background-color: black !important;
+}
+
+#logo {
+    width: 100px;
+    padding: 0;
+}
+
+div {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+    overflow: visible;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-start;
+}
+
+li {
+    font-size: 20px;
+    transition: 0.8s;
+    padding: 20px;
+    list-style: none;
+}
+
+.nav a:hover {
+    color: rgb(222, 18, 18);
+
+}
+
+.nav2 a:hover {
+    color: rgb(120, 178, 32) !important;
+
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav2 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.bi-search-heart-fill {
+    color: white;
+    font-size: 30px;
+}
+
+#poster {
+    position: relative;
+    width: 100%;
+    width: 1579px;
+    height: 890px;
+    object-fit: cover;
+}
+
+#watchmovie {
+    width: 1000px;
+    height: 600px;
+}
+
+#iframe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.next {
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 10px 10px;
+    padding: 10px 20px;
+    background: rgb(172, 153, 125);
+}
+.not {
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 10px 10px;
+    padding: 10px 20px;
+    background: bisque;
+}
+
+#p {
+    margin-top: 30px;
+    font-size: 30px;
+    margin-left: 20px;
+    color: rgb(81, 72, 60);
+}
+
+#aaab {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+#ls {
+    color: bisque;
+    font-size: 30px;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}

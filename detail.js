@@ -11,6 +11,7 @@ let content = document.querySelector('.mcontent')
 let trailer = document.querySelector('.video')
 let tmdb = document.querySelector('#tmdb')
 let actors = []
+let watch=document.querySelector('#watch')
 document.addEventListener('DOMContentLoaded',()=>{
     let url = new URLSearchParams(window.location.search);
     let slug = url.get('slug')
@@ -37,6 +38,17 @@ document.addEventListener('DOMContentLoaded',()=>{
            actors +=data.movie.actor[i]+", "
         }
         actor.innerHTML = "Diễn viên: "+actors
+        watch.addEventListener('click',()=>{
+            let current = localStorage.getItem('currentuser')
+            if(current){
+
+                window.location.href=`./watch.html?movie=${data.episodes[0].server_data[0].link_embed}&slug=${slug}`
+            }
+            else{
+                alert('sign up to watch the video')
+                window.location.href="http://127.0.0.1:5500/khoa2/SPCK2/signup/signup.html"
+            }
+        })
     })
 })
 

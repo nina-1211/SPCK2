@@ -30,6 +30,7 @@ function signup (e){
     });
     localStorage.setItem('users',JSON.stringify(users));
     alert('User registered successfully');
+    localStorage.setItem('currentuser',username);
     window.location.href ='../login/signin.html';
 }
 form.addEventListener('submit',signup)

@@ -7,6 +7,8 @@ function login(e){
     let email= document.getElementById('email').value
     let password= document.getElementById('password').value
     let users = JSON.parse(localStorage.getItem('users'))
+    // localStorage.removeItem("currentuser");
+
     if(email==""){
         alert("please enter email")
     }

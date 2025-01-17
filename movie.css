@@ -1,5 +1,5 @@
 body {
-    background-color: black !important;
+    background-image:url("https://i.pinimg.com/736x/72/a5/9d/72a59d87cbb0c5553bbf1e3a8d323062.jpg");
 }
 #logo {
     width: 100px;
@@ -27,7 +27,7 @@ li {
 
 }
 .nav2 a:hover {
-    color: rgb(120, 178, 32) !important;
+    color: navy !important;
 
 }
 .nav a {
@@ -108,15 +108,12 @@ h1 {
     color: rgb(180, 24, 24);
     padding: 10px;
 }
+
 .bi-house-door{
     color: white;
     padding: 10px;
 }
 
-.bi-three-dots {
-    color: white;
-    padding: 10px;
-}
 
 .bi-box-arrow-in-right {
     color: white;
@@ -225,6 +222,11 @@ footer {
     flex-wrap: nowrap;
     overflow-x: auto ;
 }
+#movies,#tvseries,#cartoon,#trending,#tvshows{
+    background: linear-gradient(40deg, rgba(125,26,42,1) 51%, rgba(238,174,202,1) 100%);
+    border-radius: 15px;
+    padding:10px;
+}
 #tvseries {
     margin-left: 50px;
     margin-right: 50px;
@@ -272,7 +274,7 @@ a{
     height:800px;
     margin:0 auto;
     background-color: black;
-    opacity: 0.7;
+    opacity: 0.5;
 }
 #cover2{
     position: absolute;
@@ -280,7 +282,8 @@ a{
     height:800px;
     margin:0 auto;
     background-color: black;
-    opacity: 0.7;
+    opacity: 0.5;
+   
 }
 #cover3{
     position: absolute;
@@ -288,5 +291,5 @@ a{
     height:800px;
     margin:0 auto;
     background-color: black;
-    opacity: 0.7;
+    opacity: 0.5;
 }

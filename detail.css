@@ -112,11 +112,12 @@ li {
 .more{
     display: flex;
     flex-direction: column;
-    background-color: rgba(39, 39, 75, 0.918);
-    margin: 20px;
+    background-image:url("https://i.pinimg.com/736x/72/a5/9d/72a59d87cbb0c5553bbf1e3a8d323062.jpg");
+    margin: 30px;
     border-radius: 20px;
-    color:white;
+    color:rgb(19, 19, 52);
     height: auto;
+    font-size: 20px;
 }
 footer {
     background-color: #222;
@@ -198,4 +199,7 @@ footer {
 body{
     background: linear-gradient(40deg, rgba(80,21,31,1) 48%, rgba(155,10,74,1) 100%);
 
+}
+input {
+    border-radius: 50px !important;
 }

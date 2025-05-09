@@ -17,18 +17,20 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <div class="header">
     <div class="navbar">
-      <a href="movie.html"><img src="https://i.pinimg.com/736x/99/84/3f/99843fae1e5de3d33cc1166c4185e924.jpg"
+      <a href="movie.html"><img src="https://i.pinimg.com/736x/05/5f/a9/055fa94146f0382cb55ea075b04bce18.jpg"
           id="logo"></a>
       <ul class="nav">
         <li><a href="detailpages/movies.html">Movies</a><i class="bi bi-film" style="padding:10px"></i></li>
         <li><a href="detailpages/tvseries.html">Tv Series</a><i class="bi bi-tv-fill" style="padding:10px"></i></li>
         <li><a href="detailpages/cartoon.html">Cartoon</a><i class="bi bi-people-fill" style="padding:10px"></i></li>
         <li><a href="detailpages/tvshows.html">Tv Shows</a><i class="bi bi-play-btn-fill" style="padding:10px"></i></li>
+        <li><a href="favorite.html">Favorite list</a></li>
       </ul>
     </div>
     <ul class="nav2">
@@ -47,14 +49,15 @@
     <br><br>
     <div class="year"></div>
     <div style="display: flex; align-items: center;">
-      <img style="width:150px" src="tmdb.png" alt="">
+      <img style="width:150px" src="../SPCK2/pic/tmdb.png" alt="">
       <div id="tmdb"></div>
     </div>
     <div class="type"></div>
     <div class="time"></div>
     <div class="director"></div>
     <div class="actor"></div><br>
-    <button type="button" id="watch" class="btn btn-outline-danger btn-lg">Watch Now</button>
+    <button type="button" id="watch" class="btn btn-outline-danger btn-lg">Watch Now</button> <button type="button" class="btn btn-outline-warning" id="favorite"> Add to favorite list</button>
+
   </div>
   <div class="pts">
     <div class="bigposter">
@@ -78,7 +81,7 @@
     <div class="footer-container">
       <div class="footer-content">
         <div class="footer-logo">
-          <img src="https://i.pinimg.com/736x/99/84/3f/99843fae1e5de3d33cc1166c4185e924.jpg" alt="">
+          <img src="https://i.pinimg.com/736x/05/5f/a9/055fa94146f0382cb55ea075b04bce18.jpg" alt="">
         </div>
         <div class="footer-links">
           <a href="https://www.kkphim.vip/help/help.html">API Resources: KKPhim</a>
@@ -97,7 +100,7 @@
       </div>
     </div>
   </footer>
-  <script src="detail.js"></script>
+  <script type="module" src="detail.js"></script>
 </body>
 
 </html>

@@ -35,9 +35,6 @@ fetch(`https://phimapi.com/v1/api/danh-sach/phim-le?limit=12`)
         one.addEventListener('click',()=>{
             window.location.href=`http://127.0.0.1:5500/khoa2/SPCK2/detail.html?slug=${dataItem.slug}`
         })
-        // img1.addEventListener('click',()=>{
-        //     window.location.href=`http://127.0.0.1:5500/khoa2/SPCK2/detail.html?slug=${dataItem.slug}`
-        // })
         phimle.appendChild(one)
         
 

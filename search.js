@@ -1,4 +1,6 @@
-fetch(`https://phimapi.com/v1/api/tim-kiem?keyword=love&limit=10`)
+let url = new URLSearchParams(window.location.search);
+let movie = url.get('movie')
+fetch(`https://phimapi.com/v1/api/tim-kiem?keyword=${movie}&limit=10`)
 .then(res => res.json())
 .then(data => {
     console.log(data.data)

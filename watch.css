@@ -67,8 +67,9 @@ li {
 }
 
 #watchmovie {
-    width: 1000px;
-    height: 600px;
+    width: 990px;
+    height: 560px;
+    
 }
 
 #iframe {

@@ -167,9 +167,32 @@ fetch(`https://phimapi.com/v1/api/danh-sach/hoat-hinh?limit=12`)
         )
     })
     .catch(e => console.log(e))
-let form = document.querySelector('form')
-function search() {
-    let se = document.getElementById('search').value
-    console.log(se)
+
+
+let current = localStorage.getItem('current')
+let ul = document.querySelector('.nav2')
+if(!current){
+    ul.innerHTML = `
+    <li><a href="../SPCK2/login/signin.html">Log in</a><i class="bi bi-box-arrow-in-right"></i></li>
+      <li class="nave"><a href="../SPCK2/signup/signup.html">Sign up</a><i class="bi bi-person-fill-add"></i></li>
+    `
+}else{
+    ul.innerHTML = ul.innerHTML + `
+    <li><a href="../SPCK2/favorite.html">${current}</a</li>
+    <li><a href="../SPCK2/login/signin.html">Log out</a><i class="bi bi-box-arrow-in-right"></i></li>
+    `
+    let logout = document.querySelector('.nav2 li:nth-child(2) a')
+    logout.addEventListener('click', () => {
+        localStorage.removeItem('current')
+        window.location.href = "../SPCK2/login/signin.html"
+    })
+    let form = document.getElementById('btnsearch')
+    function search() {
+        let se = document.querySelector('.form-control').value
+        
+        window.location.href=`./search.html?movie=${se}`
+    }
+    form.addEventListener('click',search)
 }
-form.addEventListener('submit',search)
+
+

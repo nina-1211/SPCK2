@@ -27,18 +27,20 @@ a{
     font-size: 20px;
     padding-left: 20px;
     padding-right: 10px;
+    font-family: Montserrat, serif;font-optical-sizing: auto;font-weight:400;font-style: normal;
 }
 a:hover {
     color: rgb(180, 24, 24) !important;
 
 }
 .nav2 a:hover {
-    color: navy!important;
+    color: rgb(0, 128, 9)!important;
 
 }
 .nav a {
     text-decoration: none;
     color: white;
+    
 }
 .nav2 {
     display: flex;
@@ -48,6 +50,7 @@ a:hover {
 .nav2 a {
     text-decoration: none;
     color: white;
+    font-family: Montserrat, serif;font-optical-sizing: auto;font-weight:400;font-style: normal;
 }
 
 .bi-search-heart-fill {

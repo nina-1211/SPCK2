@@ -51,4 +51,10 @@ p{
 h1{
     font-family: serif;
 }
-
+.googlebtn{
+    border-radius: 10px;
+    background-color: #4285F4;
+    color: white;
+    margin-bottom: 20px;
+    padding:7px;
+}

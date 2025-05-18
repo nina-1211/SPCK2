@@ -57,7 +57,7 @@ fetch(`https://phimapi.com/v1/api/danh-sach/tv-shows?limit=12`)
             one.appendChild(namesshow)
             one.appendChild(originname)
             one.addEventListener('click', () => {
-                window.location.href = `http://127.0.0.1:5500/khoa2/SPCK2/detail.html?slug=${dataItem.slug}`
+                window.location.href = `../SPCK2/detail.html?slug=${dataItem.slug}`
             })
             shows.appendChild(one)
 
